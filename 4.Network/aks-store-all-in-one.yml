@@ -543,11 +543,11 @@ spec:
               value: "100"
           resources:
             requests:
-              cpu: 1m
-              memory: 1Mi
+              cpu: 50m
+              memory: 512Mi
             limits:
-              cpu: 2m
-              memory: 20Mi
+              cpu: 100m
+              memory: 1024Mi
           readinessProbe:
             exec:
               command:
@@ -591,11 +591,11 @@ spec:
               value: "100"
           resources:
             requests:
-              cpu: 1m
-              memory: 1Mi
+              cpu: 50m
+              memory: 512Mi
             limits:
-              cpu: 2m
-              memory: 20Mi
+              cpu: 100m
+              memory: 1024Mi
           readinessProbe:
             exec:
               command:
